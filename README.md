@@ -55,7 +55,13 @@
 
 ## 参考链接
 
-- https://github.com/WangRicky/Y9000X-HACKINTOSH
-- https://github.com/hsd815/Y9000X-4K-hackintosh
-- http://bbs.pcbeta.com/viewthread-1848662-1-1.html
-- http://bbs.pcbeta.com/viewthread-1838959-1-1.html
+* https://github.com/WangRicky/Y9000X-HACKINTOSH
+* https://github.com/hsd815/Y9000X-4K-hackintosh
+* http://bbs.pcbeta.com/viewthread-1848662-1-1.html
+* http://bbs.pcbeta.com/viewthread-1838959-1-1.html
+* https://github.com/Corazon0513/VoodooI2CTAS2770
+
+## 致谢
+
+感谢各位大佬的辛勤付出，能让本小白能够一次点亮
+在此期待各位大佬能在外放上有所突破 [TAS2770](https://github.com/Corazon0513/VoodooI2CTAS2770)
