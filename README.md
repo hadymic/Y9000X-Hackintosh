@@ -23,11 +23,11 @@
 
 5. 添加了[OpenIntelWireless](https://github.com/OpenIntelWireless)的WIFI及蓝牙驱动，实测可用
 
-   WIFI驱动[itlwm](https://github.com/OpenIntelWireless/itlwm)目前为v1.0.0-alpha版本，等更新正式版后会进行更新，WIFI使用需配合[HeliPort](https://github.com/OpenIntelWireless/HeliPort)
+   ~~WIFI驱动[itlwm](https://github.com/OpenIntelWireless/itlwm)目前为v1.0.0-alpha版本，等更新正式版后会进行更新~~，[itlwm](https://github.com/OpenIntelWireless/itlwm)已更新v1.0.0_stable正式版，注意Heliport也需同步更新，WIFI使用需配合[HeliPort](https://github.com/OpenIntelWireless/HeliPort)
 
 6. 本人身边没有苹果设备，handoff 和 airdrop 也无从谈起
 
-7. 可睡眠，但唤醒黑屏，重启后正常
+7. ~~可睡眠，但唤醒黑屏，重启后正常~~根据issue，删除了补丁`PciRoot(0x0)/Pci(0x2,0x0)`，已修复
 
 前期准备
 ---
@@ -64,4 +64,5 @@
 ## 致谢
 
 感谢各位大佬的辛勤付出，能让本小白能够一次点亮
+
 在此期待各位大佬能在外放上有所突破 [TAS2770](https://github.com/Corazon0513/VoodooI2CTAS2770)
