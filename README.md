@@ -2,6 +2,12 @@
 
 ## 更新日志
 
+### 2020-09-26
+
+1. 同步更新[@WangRicky](https://github.com/WangRicky/Y9000X-HACKINTOSH)最新源码，移除CLOVER引导，原14,1的引导已移至分支`mac14,1`
+2. 同步更新OC版本为0.6.1，更改机型为16,4
+3. 更新[itlwm](https://github.com/OpenIntelWireless/itlwm)驱动至`v1.1.0 stable`版本
+
 ### 2020-08-29
 
 1. 更新`VoodooI2C`及`VoodooI2CHID`驱动至`2.4.4`
@@ -15,7 +21,7 @@
 ## EFI信息
 
 * 配置：i7 9750H / 32G / FHD / 凯侠RC10 + PM981a / Intel ax200
-* Open Core引导（0.60版本）
+* Open Core引导（0.6.1版本）
 * 支持10.15系统，实测更新到10.15.6没有问题
 * 加入屏蔽PM981a补丁
 
@@ -41,8 +47,7 @@
 
 7. ~~可睡眠，但唤醒黑屏，重启后正常~~
 
-前期准备
----
+## 前期准备
 
 * 更换硬盘：PM981a无法安装黑苹果，所以必须更换或增加硬盘。由于有PM981a存在，系统在访问PM981a硬盘文件时会导致死机重启。必须拆下或者屏蔽这块硬盘。
 * 关闭`secure boot`
@@ -69,8 +74,8 @@
 
 * https://github.com/WangRicky/Y9000X-HACKINTOSH
 * https://github.com/hsd815/Y9000X-4K-hackintosh
-* http://bbs.pcbeta.com/viewthread-1848662-1-1.html
-* http://bbs.pcbeta.com/viewthread-1838959-1-1.html
+* https://github.com/OpenIntelWireless/itlwm
+* https://github.com/OpenIntelWireless/HeliPort
 * https://github.com/Corazon0513/VoodooI2CTAS2770
 
 ## 致谢
