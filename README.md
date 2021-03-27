@@ -2,6 +2,13 @@
 
 ## 更新日志
 
+### 2021-03-27
+
+1. 已升至Big Sur 11.2.3，更新OC版本至0.6.7，更新驱动
+2. 更新[itlwm](https://github.com/OpenIntelWireless/itlwm)驱动至`v1.2.0 stable`版本
+3. 使用`AirportItlwm`，现在无需使用`HeliPort`也可以连接WIFI了
+
+
 ### 2020-09-26
 
 1. 同步更新[@WangRicky](https://github.com/WangRicky/Y9000X-HACKINTOSH)最新源码，移除CLOVER引导，原14,1的引导已移至分支`mac14,1`
