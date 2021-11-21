@@ -2,6 +2,19 @@
 
 ## 更新日志
 
+### 2021-11-21
+
+1. 同步更新[@WangRicky](https://github.com/WangRicky/Y9000X-HACKINTOSH)最新源码，更新OC版本为0.7.5，移除CLOVER引导
+
+2. 更新[itlwm](https://github.com/OpenIntelWireless/itlwm)驱动至`v2.0.0 stable`版本
+
+3. 安装 ALCPlugFix-Swift 来修复扬声器切换异常问题, 终端使用以下命安装或卸载 ALCPlugFix
+
+```
+  bash -c "$(curl -fsSL https://gitee.com/YasuStudio/fix-speaker-y9000x/raw/master/FixSpeaker-Y9000X.sh)"
+```
+4. Type-c直连显示器，需睡眠唤醒后再插线，显示器才能显示正常，参考[Issue](https://github.com/WangRicky/Y9000X-HACKINTOSH/issues/80)
+
 ### 2021-03-27
 
 1. 已升至Big Sur 11.2.3，更新OC版本至0.6.7，更新驱动
@@ -59,23 +72,22 @@
 * 更换硬盘：PM981a无法安装黑苹果，所以必须更换或增加硬盘。由于有PM981a存在，系统在访问PM981a硬盘文件时会导致死机重启。必须拆下或者屏蔽这块硬盘。
 * 关闭`secure boot`
 * 切换硬盘模式为` AHCI`
-* 关闭`VT`，否则耳机无声
 
 
 ## 工作
 
 * 显示，背光调节正常 
-* 耳机，麦克风，摄像头
+* 耳机，麦克风，摄像头，扬声器
 * WIFI 蓝牙
 * 触控板全手势支持
 * 电源管理 USB接口正常
-* Type-c接口可以正常接U盘
+* Type-c接口正常
 
 ## 不工作
 
 * 指纹
 * FN热键
-* 扬声器
+* ~~扬声器~~
 
 ## 参考链接
 
@@ -88,5 +100,3 @@
 ## 致谢
 
 感谢各位大佬的辛勤付出，能让本小白一次点亮
-
-在此期待各位大佬能在外放上有所突破 [TAS2770](https://github.com/Corazon0513/VoodooI2CTAS2770)
